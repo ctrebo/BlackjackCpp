@@ -1,0 +1,2 @@
+D:\Dev\VS Scripts\CPP Tut Scripts\JustTrySomething2\Debug\JustTrySomething2.exe
+D:\Dev\VS Scripts\CPP Tut Scripts\JustTrySomething2\Debug\JustTrySomething2.pdb
