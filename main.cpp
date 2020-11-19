@@ -15,12 +15,20 @@
 #include <cstdlib>
 
 
+
 bool playBlackjack(deck_type& deck) {
     int score_player{ 0 };
     int score_dealer{ 0 };
 
     score_dealer += getCardValue(deck[0]);
     score_player += getCardValue(deck[1]) + getCardValue(deck[2]);
+
+    bool get_another_card{ true };
+    while (get_another_card) {
+
+    }
+
+    return 0;
 }
 
 int main()

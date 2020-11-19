@@ -38,4 +38,6 @@ struct Card {
 void printCard(const Card& card);
 int getCardValue(const Card& card);
 
+char standOrGo();
+
 #endif

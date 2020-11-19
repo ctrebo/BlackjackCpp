@@ -1,13 +1,6 @@
 #include "card.h"
 #include <iostream>
 
-int generateIDforcard(const Card &deck) {
-    static int i{ 0 };
-    ++i;
-    if (i == 51)
-        i = 0;
-    return i;
-}
 
 void printCard(const Card& card){
     switch (card.rank) {
@@ -101,5 +94,26 @@ int getCardValue(const Card& card) {
             }
         }
         break;
+    }
+}
+
+bool standOrGo() {
+    while (true) {
+        std::cout << "Do you want another card?('y' or 'n'): ";
+        char option{};
+        std::cin >> option;
+
+        if (std::cin.fail()) {
+            std::cin.clear();
+            std::cin.ignore(32656, '\n');
+        }
+
+        if (option == 'y') {
+            return true;
+        }
+
+        if (option == 'n') {
+            return false;
+        }
     }
 }
