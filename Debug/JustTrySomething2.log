@@ -1,6 +1,10 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (JustTrySomething2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+<<<<<<< HEAD
   main.cpp
   card.cpp
   Generating Code...
 D:\Dev\VS Scripts\CPP Tut Scripts\JustTrySomething2\card.cpp(98): warning C4715: 'getCardValue': not all control paths return a value
+=======
+  LINK : D:\Dev\VS Scripts\CPP Tut Scripts\JustTrySomething2\Debug\Blackjack.exe not found or not built by the last incremental link; performing full link
+>>>>>>> createGame
   JustTrySomething2.vcxproj -> D:\Dev\VS Scripts\CPP Tut Scripts\JustTrySomething2\Debug\Blackjack.exe
