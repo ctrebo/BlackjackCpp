@@ -37,5 +37,5 @@ struct Card {
 
 void printCard(const Card& card);
 int getCardValue(const Card& card);
-
+bool getOptionforOtherCard();
 #endif
