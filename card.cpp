@@ -105,7 +105,7 @@ int getCardValue(const Card& card) {
 }
 
 bool getOptionforOtherCard() {
-    std::cout << "Do you want another card?('y' or 'n')";
+    std::cout << "Do you want another card?('y' or 'n'): ";
     char option{};
     std::cin >> option;
 
@@ -118,7 +118,7 @@ bool getOptionforOtherCard() {
         return true;
     }
     else if (option == 'n') {
-        return false
+        return false;
     }
 
     return 0;
